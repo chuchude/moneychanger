@@ -1,5 +1,4 @@
 from typing import Tuple, Dict
-import dotenv
 import os
 from dotenv import load_dotenv
 import json
@@ -18,8 +17,6 @@ client = OpenAI(
 
 load_dotenv()
 EXCHANGERATE_API_KEY=os.getenv('EXCHANGERATE_API_KEY')
-
-
 
 
 
